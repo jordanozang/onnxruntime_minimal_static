@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "dependencies": [
+	  "onnxruntime"
+  ],
+  "overrides": [
+	  {
+		  "name": "protobuf",
+		  "version": "3.21.12#4"
+	  },
+	  {
+		  "name": "flatbuffers",
+		  "version": "23.5.26#1"
+	  }
+  ],
+  "builtin-baseline": "3508985146f1b1d248c67ead13f8f54be5b4f5da"
+}
