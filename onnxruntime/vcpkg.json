@@ -21,7 +21,6 @@
 	  "onnx",
 	  "re2",
 	  "flatbuffers",
-	  "nsync",
 	  "cpuinfo",
 	  "protobuf",
 	  "boost-mp11",
