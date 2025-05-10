@@ -1,7 +1,5 @@
 {
 	"overlay-ports": [
-		"ports/eigen3",
-		"ports/onnx",
-		"ports/onnxruntime"
+		"ports"
 	]
 }

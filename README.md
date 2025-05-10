@@ -8,6 +8,13 @@ Port notes:
 # Build Commands
 ```
 cmake . -B build -DCMAKE_TOOLCHAIN_FILE=YOUR_VCPKG_INSTALL/scripts/buildsystems/vcpkg.cmake
+```
+or, for windows,
+```
+cmake . -B build -DCMAKE_TOOLCHAIN_FILE=YOUR_VCPKG_INSTALL/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static
+```
+then
+```
 cmake --build build
 ```
 

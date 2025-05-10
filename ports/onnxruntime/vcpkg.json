@@ -25,6 +25,9 @@
 	  "protobuf",
 	  "boost-mp11",
 	  "onnx",
-	  "safeint"
+	  "safeint",
+	  "wil",
+	  "ms-gsl",
+	  "gtest"
 	]
 }
