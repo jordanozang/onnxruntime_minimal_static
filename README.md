@@ -11,7 +11,7 @@ cmake . -B build -DCMAKE_TOOLCHAIN_FILE=YOUR_VCPKG_INSTALL/scripts/buildsystems/
 ```
 or, for windows,
 ```
-cmake . -B build -DCMAKE_TOOLCHAIN_FILE=YOUR_VCPKG_INSTALL/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static
+cmake . -B build -DCMAKE_TOOLCHAIN_FILE=YOUR_VCPKG_INSTALL/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static-md
 ```
 then
 ```

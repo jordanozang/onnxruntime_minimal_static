@@ -1,7 +1,9 @@
 {
   "name": "test",
   "dependencies": [
-	  "onnxruntime"
+	  "onnxruntime",
+    "libpng",
+    "zlib"
   ],
   "overrides": [
   {
